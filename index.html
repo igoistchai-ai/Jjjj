@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Headless Horseman - Roblox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-top">
+        <div class="logo">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+            <rect width="28" height="28" rx="6" fill="#111"/>
+            <path d="M8 10h12v2H8V10zm0 4h12v2H8v-2zm0 4h8v2H8v-2z" fill="#fff"/>
+          </svg>
+          <span>Roblox</span>
+        </div>
+        <div class="user-chip">
+          <div class="avatar-sm">MA</div>
+          <span class="username">MA_Visuals</span>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><circle cx="8" cy="5" r="3"/><path d="M2 14c0-3 2.5-5 6-5s6 2 6 5"/></svg>
+          Profile
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6"/><text x="8" y="11" text-anchor="middle" font-size="7" fill="#fff">R$</text></svg>
+          Robux
+          <span class="badge">3</span>
+        </a>
+        <a href="#" class="nav-item active">
+          <svg class="icon" viewBox="0 0 16 16"><path d="M2 6l6-4 6 4v7H2V6z"/></svg>
+          Home
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><circle cx="8" cy="5" r="3"/><path d="M2 14c0-3 2.5-5 6-5s6 2 6 5"/></svg>
+          Profile
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><path d="M3 3h10v10H3z"/><path d="M6 6h4v4H6z" fill="#fff"/></svg>
+          Roblox Plus
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><path d="M2 3h12v8H2z"/><path d="M5 13h6"/></svg>
+          Messages
+          <span class="badge">12</span>
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><circle cx="5" cy="6" r="2.5"/><circle cx="11" cy="6" r="2.5"/><path d="M1 13c0-2 1.5-3.5 4-3.5s4 1.5 4 3.5"/><path d="M7 13c0-2 1.5-3.5 4-3.5s4 1.5 4 3.5"/></svg>
+          Friends
+          <span class="badge">5</span>
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><circle cx="8" cy="5" r="3"/><path d="M3 14l2-5h6l2 5"/></svg>
+          Avatar
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><rect x="2" y="3" width="12" height="10" rx="1"/><path d="M5 7h6M5 10h4"/></svg>
+          Inventory
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><path d="M2 8h5l2-3 2 6 2-3h3"/></svg>
+          Trade
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6"/><path d="M5 8h6M8 5v6"/></svg>
+          Communities
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><rect x="2" y="2" width="12" height="12" rx="1"/><path d="M5 6h6M5 9h4"/></svg>
+          Newsroom
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><path d="M3 4h10v9H3z"/><path d="M6 7h4"/></svg>
+          Official Store
+        </a>
+        <a href="#" class="nav-item">
+          <svg class="icon" viewBox="0 0 16 16"><rect x="3" y="4" width="10" height="8" rx="1"/><path d="M6 8h4"/></svg>
+          Buy Gift Cards
+        </a>
+      </nav>
+
+      <div class="sidebar-promo">
+        <div class="promo-card">
+          <div class="promo-img">Premium</div>
+          <div class="promo-text">Get more Robux</div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <div class="main">
+      <!-- TOP HEADER -->
+      <header class="header">
+        <div class="header-left">
+          <div class="header-logo">
+            <svg width="22" height="22" viewBox="0 0 28 28"><rect width="28" height="28" rx="5" fill="#111"/><path d="M8 10h12v2H8zm0 4h12v2H8zm0 4h8v2H8z" fill="#fff"/></svg>
+          </div>
+          <nav class="header-nav">
+            <a href="#">Charts</a>
+            <a href="#" class="active">Marketplace</a>
+            <a href="#">Create</a>
+            <a href="#">Robux</a>
+          </nav>
+        </div>
+        <div class="header-search">
+          <svg class="search-icon" viewBox="0 0 16 16"><circle cx="7" cy="7" r="5"/><path d="M11 11l3 3"/></svg>
+          <input type="text" placeholder="Search" aria-label="Search">
+        </div>
+        <div class="header-right">
+          <button class="icon-btn" aria-label="Notifications">
+            <svg viewBox="0 0 16 16"><path d="M8 2a4 4 0 00-4 4v3l-1.5 2h11L12 9V6a4 4 0 00-4-4z"/><path d="M6 13a2 2 0 004 0"/></svg>
+          </button>
+          <button class="icon-btn" aria-label="Settings" id="settingsBtn">
+            <svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="2"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.5 3.5l1.4 1.4M11.1 11.1l1.4 1.4M3.5 12.5l1.4-1.4M11.1 4.9l1.4-1.4"/></svg>
+          </button>
+          <div class="balance" id="headerBalance">
+            <svg class="robux-icon" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#00A2FF"/><text x="8" y="11" text-anchor="middle" font-size="8" fill="#fff" font-weight="700">R$</text></svg>
+            <span id="balanceValue">122,546,312</span>
+          </div>
+          <div class="header-avatar">MA</div>
+        </div>
+      </header>
+
+      <!-- CONTENT -->
+      <div class="content">
+        <div class="product-layout">
+          <!-- PREVIEW -->
+          <div class="preview-col">
+            <div class="preview-box" id="previewBox">
+              <div class="preview-3d" id="preview3d">
+                <div class="character" id="character">
+                  <!-- CSS Headless Horseman mock -->
+                  <div class="ch-body"></div>
+                  <div class="ch-cape"></div>
+                  <div class="ch-arm-l"></div>
+                  <div class="ch-arm-r"></div>
+                  <div class="ch-pumpkin">
+                    <div class="pumpkin-face"></div>
+                    <div class="pumpkin-stem"></div>
+                  </div>
+                  <div class="ch-flame"></div>
+                </div>
+              </div>
+              <div class="preview-2d hidden" id="preview2d">
+                <div class="flat-character">
+                  <div class="flat-pumpkin">🎃</div>
+                  <div class="flat-body"></div>
+                </div>
+              </div>
+              <div class="preview-controls">
+                <button class="ctrl-btn" id="tryOnBtn">Try On</button>
+                <button class="ctrl-btn" id="mode2dBtn">2D</button>
+              </div>
+            </div>
+            <div class="preview-meta">
+              <span class="fav">★ 3M</span>
+            </div>
+          </div>
+
+          <!-- PRODUCT INFO -->
+          <div class="info-col">
+            <h1 class="product-title">Headless Horseman</h1>
+            <div class="creator">
+              <span>By Roblox</span>
+              <svg class="verified" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#00A2FF"/><path d="M5 8l2 2 4-4" stroke="#fff" stroke-width="1.5" fill="none"/></svg>
+            </div>
+            <div class="price-row">
+              <span class="price-label">Price</span>
+              <div class="price-value">
+                <svg class="robux-icon" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#00A2FF"/><text x="8" y="11" text-anchor="middle" font-size="8" fill="#fff" font-weight="700">R$</text></svg>
+                <span>31,000</span>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <button class="btn-buy" id="buyBtn">Buy</button>
+            <button class="btn-gift" id="giftBtn">
+              <svg viewBox="0 0 16 16" width="14" height="14"><rect x="3" y="6" width="10" height="8" rx="1"/><path d="M8 2v4M5 4h6"/></svg>
+              Gift
+            </button>
+            <div class="props">
+              <div class="prop"><span class="label">Tradable</span><span class="val">No</span></div>
+              <div class="prop"><span class="label">Type</span><span class="val">Characters</span></div>
+              <div class="prop"><span class="label">Placement</span><span class="val">Full Body</span></div>
+              <div class="prop"><span class="label">Created</span><span class="val">Aug 15, 2018</span></div>
+            </div>
+            <div class="description">
+              <span class="label">Description</span>
+              <p>“No, you must believe me. It was a horseman, a dead one. Headless.”</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- INCLUDED ITEMS -->
+        <section class="included">
+          <h2>Included Items</h2>
+          <div class="items-scroll">
+            <div class="item-card">
+              <div class="item-thumb t1"></div>
+              <div class="item-name">Headless Horseman Head</div>
+              <div class="item-type">Accessory</div>
+            </div>
+            <div class="item-card">
+              <div class="item-thumb t2"></div>
+              <div class="item-name">Headless Horseman Torso</div>
+              <div class="item-type">Body Part</div>
+            </div>
+            <div class="item-card">
+              <div class="item-thumb t3"></div>
+              <div class="item-name">Headless Horseman Left Arm</div>
+              <div class="item-type">Body Part</div>
+            </div>
+            <div class="item-card">
+              <div class="item-thumb t4"></div>
+              <div class="item-name">Headless Horseman Right Arm</div>
+              <div class="item-type">Body Part</div>
+            </div>
+            <div class="item-card">
+              <div class="item-thumb t5"></div>
+              <div class="item-name">Headless Horseman Left Leg</div>
+              <div class="item-type">Body Part</div>
+            </div>
+            <div class="item-card">
+              <div class="item-thumb t6"></div>
+              <div class="item-name">Headless Horseman Right Leg</div>
+              <div class="item-type">Body Part</div>
+            </div>
+            <div class="item-card">
+              <div class="item-thumb t7"></div>
+              <div class="item-name">Headless Horseman’s Off Sale Gear</div>
+              <div class="item-type">Gear</div>
+            </div>
+            <div class="item-card">
+              <div class="item-thumb t8"></div>
+              <div class="item-name">Anime - Mood</div>
+              <div class="item-type">Face</div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer-links">
+          <a href="#">About Us</a>
+          <a href="#">Jobs</a>
+          <a href="#">Newsroom</a>
+          <a href="#">Parents</a>
+          <a href="#">Buy Gift Cards</a>
+          <a href="#">Help</a>
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Privacy Choice</a>
+          <a href="#">Sitemap</a>
+        </div>
+        <div class="footer-bottom">
+          <select class="lang-select" aria-label="Language">
+            <option>English (United States)</option>
+            <option>Русский</option>
+            <option>Español</option>
+          </select>
+          <span class="copy">© 2026 Roblox Corporation. All rights reserved.</span>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- CHAT BUTTON -->
+  <button class="chat-btn" id="chatBtn" aria-label="Open chat">
+    Chat
+    <svg viewBox="0 0 16 16" width="14" height="14"><path d="M2 3h12v8H5l-3 3V3z"/></svg>
+  </button>
+
+  <!-- CHAT PANEL -->
+  <div class="chat-panel hidden" id="chatPanel">
+    <div class="chat-header">
+      <span>Chat</span>
+      <button class="close-x" id="closeChat" aria-label="Close chat">×</button>
+    </div>
+    <div class="chat-body">
+      <div class="chat-msg">Welcome to Roblox Chat!</div>
+    </div>
+    <div class="chat-input-row">
+      <input type="text" placeholder="Type a message..." id="chatInput">
+      <button id="sendChat">Send</button>
+    </div>
+  </div>
+
+  <!-- OVERLAY -->
+  <div class="overlay hidden" id="overlay"></div>
+
+  <!-- GIFT MODAL -->
+  <div class="modal gift-modal hidden" id="giftModal" role="dialog" aria-modal="true" aria-labelledby="giftTitle">
+    <!-- STATE: SEARCH / LOADING / FRIENDS -->
+    <div class="modal-state" id="stateSearch">
+      <div class="modal-header">
+        <div class="modal-title">
+          <svg class="gift-icon" viewBox="0 0 16 16"><rect x="3" y="6" width="10" height="8" rx="1"/><path d="M8 2v4M5 4h6"/></svg>
+          <span id="giftTitle">Send gift</span>
+        </div>
+        <div class="modal-header-right">
+          <div class="modal-balance">
+            <svg class="robux-icon" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#00A2FF"/><text x="8" y="11" text-anchor="middle" font-size="8" fill="#fff" font-weight="700">R$</text></svg>
+            <span id="modalBalance">122,546,312</span>
+          </div>
+          <button class="close-x" id="closeGift" aria-label="Close">×</button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="gift-item-row">
+          <div class="gift-thumb"></div>
+          <div class="gift-info">
+            <div class="gift-name" id="giftItemName">Headless Horseman</div>
+            <div class="gift-price">
+              <svg class="robux-icon" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#00A2FF"/><text x="8" y="11" text-anchor="middle" font-size="7" fill="#fff" font-weight="700">R$</text></svg>
+              <span id="giftItemPrice">31,000</span>
+            </div>
+          </div>
+        </div>
+        <button class="link-btn" id="changeGift">Change gift</button>
+        <div class="section-label">Who would you like to gift this to?</div>
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 16 16"><circle cx="7" cy="7" r="5"/><path d="M11 11l3 3"/></svg>
+          <input type="text" placeholder="Search" id="friendSearch" aria-label="Search friends">
+        </div>
+        <div class="section-label" id="friendsLabel">My friends</div>
+        <div class="loading-state" id="loadingState">
+          <div class="spinner"></div>
+          <span>Loading...</span>
+        </div>
+        <div class="friends-list hidden" id="friendsList"></div>
+      </div>
+    </div>
+
+    <!-- STATE: PROFILE CONFIRMATION -->
+    <div class="modal-state hidden" id="stateProfile">
+      <div class="modal-header">
+        <button class="back-btn" id="backToFriends" aria-label="Back">
+          <svg viewBox="0 0 16 16"><path d="M10 3L5 8l5 5"/></svg>
+        </button>
+        <div class="profile-header">
+          <div class="profile-avatar" id="profileAvatar">Y</div>
+          <div class="profile-name" id="profileName">yannis4444</div>
+        </div>
+        <button class="close-x" id="closeGift2" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-val" id="mutualVal">6</div>
+            <div class="info-lab">Mutual Friends</div>
+          </div>
+          <div class="info-card">
+            <div class="info-val" id="joinedVal">Nov 9, 2021</div>
+            <div class="info-lab">Joined</div>
+          </div>
+          <div class="info-card">
+            <div class="info-val" id="activeVal">1 day ago</div>
+            <div class="info-lab">Last active</div>
+          </div>
+        </div>
+        <div class="confirm-gift">
+          <div class="gift-thumb-sm"></div>
+          <div>
+            <div class="gift-name-sm" id="confirmGiftName">Headless Horseman</div>
+            <div class="confirm-text" id="confirmText">Send this gift to yannis4444?</div>
+          </div>
+        </div>
+        <div class="big-price">
+          <svg class="robux-icon" viewBox="0 0 20 20"><circle cx="10" cy="10" r="9" fill="#00A2FF"/><text x="10" y="14" text-anchor="middle" font-size="10" fill="#fff" font-weight="700">R$</text></svg>
+          <span id="confirmPrice">31,000</span>
+        </div>
+        <button class="btn-gift-confirm" id="sendGiftBtn">Gift</button>
+      </div>
+    </div>
+
+    <!-- STATE: SENT SUCCESS -->
+    <div class="modal-state hidden" id="stateSent">
+      <div class="modal-header">
+        <div class="modal-title">
+          <svg class="gift-icon" viewBox="0 0 16 16"><rect x="3" y="6" width="10" height="8" rx="1"/><path d="M8 2v4M5 4h6"/></svg>
+          <span>Send gift</span>
+        </div>
+        <div class="modal-header-right">
+          <div class="modal-balance">
+            <svg class="robux-icon" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#00A2FF"/><text x="8" y="11" text-anchor="middle" font-size="8" fill="#fff" font-weight="700">R$</text></svg>
+            <span id="modalBalanceSent">122,515,312</span>
+          </div>
+          <button class="close-x" id="closeGift3" aria-label="Close">×</button>
+        </div>
+      </div>
+      <div class="modal-body sent-body">
+        <div class="sent-thumb"></div>
+        <div class="sent-title">Gift sent</div>
+        <div class="sent-name" id="sentItemName">Headless Horseman</div>
+        <div class="sent-price">
+          <svg class="robux-icon" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#00A2FF"/><text x="8" y="11" text-anchor="middle" font-size="8" fill="#fff" font-weight="700">R$</text></svg>
+          <span id="sentPrice">31,000</span>
+        </div>
+        <div class="sent-to" id="sentTo">To yannis4444</div>
+        <button class="btn-gift-confirm" id="sendAnotherBtn">Send another gift</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING SETTINGS PANEL -->
+  <div class="settings-panel hidden" id="settingsPanel">
+    <div class="sp-header">
+      <div class="sp-avatar">nezzx</div>
+      <span>panel nezzx</span>
+    </div>
+    <div class="sp-label">ROBLOX BALANCE</div>
+    <div class="sp-balance">
+      <svg class="robux-icon" viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="#00A2FF"/><text x="8" y="11" text-anchor="middle" font-size="8" fill="#fff" font-weight="700">R$</text></svg>
+      <span id="spBalance">122,546,312</span>
+    </div>
+    <div class="sp-toggle-row">
+      <span>Enabled</span>
+      <label class="switch">
+        <input type="checkbox" id="extToggle" checked>
+        <span class="slider"></span>
+      </label>
+    </div>
+    <button class="sp-save" id="saveSettings">Save Settings</button>
+    <div class="sp-toast hidden" id="spToast">Settings saved</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
